@@ -3,22 +3,24 @@
 }
 html, body{
     margin: 0;
-    padding: 0
+    padding: 0;
+    height: 100%;
 }
 .container {
-    background-color: #121016;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 .topnav{
     background-color: #121016;
     display: flex;
     margin: 0;
-    height: 3vh;
+    min-height: 3vh;
 }
 .topnav img{
     padding: 3px;
+    height: 3.5vh;
+    width: auto;
 }
 .topnav span{
     color: aliceblue;
@@ -26,6 +28,7 @@ html, body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 0.9em;
 }
 .topnav a{
     padding: 3px;
@@ -36,18 +39,20 @@ html, body{
     margin-top: 0;
 }
 .row{
-    display: flex;
-    height: 94vh;
+    background-color: #21202e;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-auto-rows: auto;
 }
 .left-column{
-    width: 40px;
-    background-color: #21202e;
+    grid-auto-rows: auto;
+    min-height: 94vh;
 }
 ul li a:hover, .menu a:hover{
     color: #31e79e;
     background-color: #21202e;
 }
-
 ul.vertical{
     list-style-type: none;
     margin: 0;
@@ -70,8 +75,6 @@ ul.vertical li a:hover {
     color: #31e79e;
 }
 .right-column{
-    flex: 1;
-    background-color: #21202e;
     border: 1px solid #121016;
     border-top: none;
 }
@@ -95,12 +98,14 @@ ul.vertical li a:hover {
     color: #31e79e;
 }
 .footer{
-    position: relative;
+    position: fixed;
+    left: 0;
     display: flex;
     justify-content: flex-end;
-    margin: 0;
     height: 3vh;
     background-color: #68217a;
+    bottom: 0;
+    width: 100%
 }
 .footer span{
     position: absolute;

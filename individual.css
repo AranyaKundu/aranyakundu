@@ -1,32 +1,49 @@
 *{
+    box-sizing: border-box;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 /* Code for  Home page starts here */
-.inner-row{
-    display: flex;
-    align-items: center;
+.inner_row{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #21202e;
+    grid-auto-rows: auto;
 }
 .leftcol{
-    flex: 6;
+    margin-left:5%;
 }
 .rightcol{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.content{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-60%);
-    left: 5%;
+.techbuttons{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
 }
+.techbuttons button{
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    padding: 5px 10px;
+}
+
 .name{
     font-size: 44px;
     color:aliceblue;
 }
-.typing p, .skills{
-    font-size: 24px;
+.typing{
+    display: inline-block;
+}
+.typing p, .tech{
+    font-size: 2vw;
     color:aliceblue;
 }
-
 .typing p{
     content: "";
     white-space: nowrap;
@@ -47,7 +64,7 @@
 @keyframes type {
     0% {width: 0}
     99.9%{border-right: 0.12em solid #c280ee;}
-    100% { width: 100%;
+    100% {width: 100%;
         border: none;
     }
 }
@@ -72,32 +89,20 @@ to {border-color: #c280ee; }
 }
 .buttons button{
     background-color: transparent;
-    padding: 5px 10px;
+    padding: 0.4em 0.8em;
     border-radius: 50px;
     color: aliceblue;
     cursor: text;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.buttons button:nth-child(3n){
-    border: .16em solid rgb(34, 185, 56);
-}
-.buttons button:nth-child(3n+1){
-    border: .16em solid #8b69de;
-}
-.buttons button:nth-child(3n+2){
-    border: .16em solid rgb(45, 20, 210);
-}
 .circular_frame{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right:5%;
+    position: relative;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid firebrick;
-    padding: 5px;
+
 }
 .circular_frame img{
     position: absolute;
@@ -109,6 +114,7 @@ to {border-color: #c280ee; }
     height: 100%;
     object-fit: cover;
 }
+
 /* Code for Home page ends here.
 Code for projects page starts here */
 .subhead{
@@ -124,27 +130,17 @@ hr{
     margin-top: 5px;
 }
 .projects_row{
-    display: flex;
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-items: stretch;
+    gap: 20px;
 }
 .card{
-    position: absolute;
-    margin-top: 20px;
-    height: 575px;
-    width: 380px;
+    display: grid;
     background-color: #121016;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.card:nth-child(1){
-    left: 5%;
-}
-.card:nth-child(2){
-    left: 50%;
-    transform: translateX(-50%);
-}
-.card:nth-child(3){
-    left: 70%;
 }
 .card-content{
     justify-content: center;
@@ -155,22 +151,51 @@ hr{
 }
 .card-content img{
     width:100%;
-    height: 240px;
+    height: 35%;
+}
+@media screen and (max-width: 600px) {
+    .inner_row{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+        grid-auto-rows: auto;
+    }
+    .card, .cards {
+       width: 90%;
+       display: block;
+       margin-bottom: 20px;
+       margin-left: 2%;
+       height: 550px;
+    }
+    .cards img{
+        height: 550px;
+    }
+    .typing p{
+        overflow: hidden;
+        white-space: normal;
+        animation: none;
+    }
 }
 .descr{
     font-family: monospace;
-    font-size: 14px;
+    font-size: 1em;
     color: aliceblue;
     padding: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
 .card .card-content .buttons{
-    margin-left:8%;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 15px;
+    justify-content: center;
 }
 .code{
     text-align: center;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 .code button{
     background-color: transparent;
@@ -203,4 +228,136 @@ hr{
 }
 .code button.yllo:hover{
     background-color: goldenrod;
+}
+/* Code for education tab starts here */
+.education{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-template-rows: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-items: stretch;
+    gap: 20px;
+}
+.cards{
+    margin-top: 2%;
+    display: grid;
+    background-color: #121016;
+    position: relative;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+    background: rgb(27, 27, 27, 0.6);
+}
+
+.cards:hover .back{
+    background: rgb(10, 10, 10, 0.6);
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.01);
+    transition: all 0.8s ease-in;
+}
+.cards:hover img{
+    transform: scale(1.01);
+}
+.back div{
+    margin-top:15px;
+    justify-content: center;
+}
+.back p{
+    margin: 5px;
+    color: aliceblue;
+    font-size: 0.9em;
+    text-align: center;
+}
+.skills button{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: aliceblue;
+    cursor: text;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.buttons, .skills{
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+}
+.buttons button:nth-child(5n), 
+.skills button:nth-child(5n), 
+.techbuttons button:nth-child(5n){
+    border: 0.12em solid #8b69de;
+}
+.buttons button:nth-child(5n+1), 
+.skills button:nth-child(5n+1),
+.techbuttons button:nth-child(5n+1){
+    border: 0.12em solid rgb(45, 20, 210);
+}
+.buttons button:nth-child(5n+2), 
+.skills button:nth-child(5n+2),
+.techbuttons button:nth-child(5n+2){
+    border: 0.12em solid rgb(34, 185, 56); 
+}
+.buttons button:nth-child(5n+3),
+.skills button:nth-child(5n+3),
+.techbuttons button:nth-child(5n+3){
+    border: 0.12em solid #c280ee;
+}
+.buttons button:nth-child(5n+4), 
+.skills button:nth-child(5n+4),
+.techbuttons button:nth-child(5n+4){
+    border: 0.12em solid goldenrod;
+}
+.link button, .link2 button, .link3 button{
+    text-align: center;
+    margin-top: 15px;
+    background-color: transparent;
+    padding: 3px 10px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease-in;
+    -o-transition: background-color 0.2s ease-in;
+    -ms-transition: background-color 0.2s ease-in;
+    -moz-transition: background-color 0.2s ease-in;
+    -webkit-transition: background-color 0.2s ease-in;
+}
+.link, .link2, .link3{
+    text-align: center;
+    margin-top: 15px;
+}
+.link button, .link3 button{
+    border: 1px solid rgb(45, 20, 210);
+}
+.link2 button{
+    border: 1px solid #c280ee;
+}
+.link a, .link2 a, .link3 a{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+}
+.link button:hover, .link3 button:hover{
+    background-color: rgb(45, 20, 210);
+    cursor: pointer;
+}
+.link2 button:hover{
+    background-color: #c280ee;
+    cursor: pointer;
 }
