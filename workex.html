@@ -6,6 +6,7 @@
         <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
         <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "individual.css">
         <link rel = "shortcut icon" href = "images/vscode.ico" type = "image/x-icon"> 
         <title>Aranya Kundu | Portfolio</title>
     </head>
@@ -13,7 +14,7 @@
         <div class = "container">
             <div class = "topnav">
                 <!--Horizontal menu item -->
-                <img src="images/vscode.ico" style="height:16px; width:16px"/>
+                <img src="images/vscode.ico">
                 <a href="#">File</a>
                 <a href="#">Edit</a>
                 <a href="#">Selection</a>
@@ -40,15 +41,76 @@
                     <div class = "menu">
                         <a href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;home.html &nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "education.html"><i class="fas fa-user-graduate"></i>&nbsp;&nbsp;education.css&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
-                        <a class = "active" href = "workex.html"><i class="fas fa-industry"></i>&nbsp;&nbsp;workex.js&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "projects.html"><i class="fab fa-python"></i>&nbsp;&nbsp;projects.py&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "dashboards.html"><i class="fab fa-r-project"></i>&nbsp;&nbsp;dashboards.R&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
+                        <a class = "active" href = "workex.html"><i class="fas fa-industry"></i>&nbsp;&nbsp;workex.js&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                     </div>
                     <!-- # code for actual content, create new divs -->
+                    <div class="workexp">
+                        <div class="tab-titles">
+                            <p class = "tab-links active-link" onclick="showtab('ra')">Mendoza College of Business</p>
+                            <p class = "tab-links" onclick="showtab('da')">NTPC Limited</p>
+                        </div>
+                        <div class="tab-contents active-tab" id = "ra">
+                            <div class="kpicards card0">
+                                <h2 class="subtitle">DETAILS</h2>
+                                <p class="kpi"><i>Title:</i><br>Research Assistant</p>
+                                <p class="kpi"><i>Start Date:</i><br>February, 2023</p>
+                                <p class="kpi"><i>End Date:</i><br>Present</p>
+                            </div>
+                            <div class="kpicards card1">
+                                <h2 class="subtitle">STRATEGY</h2>
+                                <p class="kpi">Exploring various state-of-the-art frameworks for training big text data to analyze their advantages and disadvantages.</p>
+                            </div>
+                            <div class="kpicards card2">
+                                <h2 class="subtitle">EXPERTISE</h2>
+                                <p class="kpi">Training large linguistic models based on the pre-trained BERT framework for determination of anomaly scores.</p>
+                            </div>
+                            <div class="kpicards card3">
+                                <h2 class="subtitle">RESULTS</h2>
+                                <p class="kpi">Predicting contextual novelty and prescience of earnings call data of top management of various companies.</p>
+                            </div>      
+                        </div>
+                        <div class="tab-contents" id = "da">
+                            <div class="kpicards card0">
+                                <h2 class="subtitle">DETAILS</h2>
+                                <p class="kpi"><i>Title:</i><br>Data Analyst</p>
+                                <p class="kpi"><i>Start Date:</i><br>July, 2020</p>
+                                <p class="kpi"><i>End Date:</i><br>June, 2022</p>
+                            </div>
+                            <div class="kpicards card1">
+                                <h2 class="subtitle">ANALYTICS</h2>
+                                <p class="kpi">Prepared and presented insights on company’s pricing policy to the Senior Leadership for 70 Giga Watts of power projects
+                                    by analyzing factors impacting monthly demand pattern and prices using previous operations and commercial data.</p>
+                            </div>
+                            <div class="kpicards card2">
+                                <h2 class="subtitle">STRATEGY</h2>
+                                <p class="kpi">Mobilized automatic reports in collaboration with company’s Power Trading and Analytics team to support in developing
+                                    power trading strategies for 7 clients based on their electricity demands and supplies.</p>
+                            </div>
+                            <div class="kpicards card3">
+                                <h2 class="subtitle">EXPERTISE</h2>
+                                <p class="kpi">Programmed and implemented efficient and scalable business intelligence solutions leveraging Python skills, ETL practices
+                                    and SQL expertise, to be used by the top management and to provide consultation to clients.</p>
+                            </div>
+                            <div class="kpicards card4">
+                                <h2 class="subtitle">FORECAST</h2>
+                                <p class="kpi">Developed demand forecasting model to analyze previous energy consumption data and forecast energy demand of clients
+                                    to provide insights for power plant operations and tariff determination with 90% accuracy.</p>
+                            </div>
+                            <div class="kpicards card5">
+                                <h2 class="subtitle">OPTIMIZE</h2>
+                                <p class="kpi">Improved and managed three areas of ongoing commercial activities by restructuring them through implementation of
+                                    robotic process automation thereby reducing lead times and enhancing productivity.</p>
+                            </div>       
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <div class = "footer">
+                <span>Best viewed in screens of size 1920x1080 &amp; Chrome.</span>
+                <span class="copyright">&copy; Aranya Kundu | 2023 &mdash; All rights reserved.</span>
                 <a href = "https://www.linkedin.com/in/aranya-kundu"><i class = "fab fa-linkedin"></i></a>
                 <a href = "https://github.com/To-R-is-Human"><i class = "fab fa-github"></i></a>
                 <a href = "https://www.instagram.com/aranya.kundu/"><i class="fab fa-instagram"></i></a>
@@ -56,5 +118,23 @@
                 <a href = "tel:+1-574-386-5029"><i class = "fas fa-mobile"></i></a>
             </div>
         </div>
+<!-- Javascript Code here -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function showtab(tabname) {
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+        </script>
+
     </body>
 </html>

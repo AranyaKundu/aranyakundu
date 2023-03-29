@@ -158,22 +158,37 @@ hr{
         display: grid;
         grid-template-columns: 100%;
         grid-row-gap: 20px;
-        grid-auto-rows: auto;
+        grid-auto-rows: max-content;
     }
-    .card, .cards {
+    .education{
+        grid-template-columns: 90%;
+        margin-bottom: 2%;
+    }
+    .card {
        width: 90%;
        display: block;
        margin-bottom: 20px;
        margin-left: 2%;
        height: 550px;
     }
-    .cards img{
-        height: 550px;
-    }
+    
     .typing p{
         overflow: hidden;
         white-space: normal;
         animation: none;
+    }
+    .workexp{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .tab-contents.active-tab{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 .descr{
@@ -232,11 +247,12 @@ hr{
 /* Code for education tab starts here */
 .education{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-rows: 600px;
     padding-left: 2%;
     padding-right: 2%;
     justify-items: stretch;
+    margin-top: 2%;
     gap: 20px;
 }
 .cards{
@@ -247,13 +263,13 @@ hr{
 }
 .cards img{
     width: 100%;
-    height: 100%;
+    height: 600px;
 }
 .back{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 600px;
     width: 100%;
     opacity: 0;
     top: 0;
@@ -262,7 +278,6 @@ hr{
     visibility: hidden;
     background: rgb(27, 27, 27, 0.6);
 }
-
 .cards:hover .back{
     background: rgb(10, 10, 10, 0.6);
     opacity: 1;
@@ -360,4 +375,86 @@ hr{
 .link2 button:hover{
     background-color: #c280ee;
     cursor: pointer;
+}
+/* Code for work experience page starts here */
+.workexp{
+    display: grid;
+    grid-template-rows: 75px 1fr auto;
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+    min-height: 91vh;
+}
+.tab-titles{
+    display: flex;
+    justify-content: center;
+}
+.tab-links{
+    margin-right: 50px;
+    position: relative;
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 1em;
+    cursor: pointer;
+}
+.tab-links:hover{
+    font-style: italic;
+}
+.tab-links::after{
+    content: "";
+    width: 80%;
+    height: 3px;
+    position: absolute;
+    background: #8b69de;
+    transform: scaleX(0);
+    left: 0;
+    bottom: -5px;
+    transition: all 0.6s ease-in;
+}
+.tab-links.active-link{
+    color: #8b69de;
+}
+.tab-links:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom-right;
+}
+.tab-links.active-link::after{
+    
+    transform: scaleX(1);
+    transform-origin: bottom-right;
+}
+.tab-links.active-link:hover{
+    color: aliceblue;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: max-content;
+    column-gap: 40px;
+    height: calc(91vh-75px);
+}
+.kpicards{
+    background: aliceblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px rgba(255,255,255,0.2);
+    text-align: center;
+}
+.card1, .card2, .card3, .card4, .card5{
+    padding:10px;
+}
+.card0, .card2, .card4{
+    align-items: centers;
+}
+.subtitle{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kpi{
+    font-size: 0.9em;
+    padding: 20 px;
 }

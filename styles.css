@@ -44,6 +44,7 @@ html, body{
     display: grid;
     grid-template-columns: 40px auto;
     grid-auto-rows: auto;
+    min-height: 94vh;
 }
 .left-column{
     grid-auto-rows: auto;
@@ -77,6 +78,7 @@ ul.vertical li a:hover {
 .right-column{
     border: 1px solid #121016;
     border-top: none;
+    min-height: 94vh;
 }
 .menu {
     display: flex; 
@@ -86,7 +88,7 @@ ul.vertical li a:hover {
 }
 .menu a {
     background-color: #191a21;
-    padding: 7px 7px 3px 7px;
+    padding: 5px 5px 3px 5px;
     margin: 0;
     text-decoration: none;
     color: aliceblue;
