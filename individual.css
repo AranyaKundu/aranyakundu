@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    overflow-x: clip;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 /* Code for  Home page starts here */
@@ -8,6 +9,16 @@
     grid-template-columns: 60% 40%;
     background-color: #21202e;
     grid-auto-rows: auto;
+}
+.inner_row::before{
+    content: "BERT/GPT Research";
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    font-weight: bolder;
+    color: rgba(255,255,255,0.1)
 }
 .leftcol{
     margin-left:5%;
@@ -435,6 +446,7 @@ hr{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-template-rows: max-content;
     column-gap: 40px;
+    row-gap: 40px;
     height: calc(91vh-75px);
 }
 .kpicards{
@@ -443,6 +455,7 @@ hr{
     box-sizing: border-box;
     box-shadow: 4px 4px rgba(255,255,255,0.2);
     text-align: center;
+    padding-top:10px;
 }
 .card1, .card2, .card3, .card4, .card5{
     padding:10px;
@@ -457,4 +470,17 @@ hr{
 .kpi{
     font-size: 0.9em;
     padding: 20 px;
+}
+#icon{
+    background: #c280ee1f;
+    color: rgb(21, 21, 172);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+#icon:hover{
+    color: aliceblue;
+    background: rgb(21, 21, 172);
 }
