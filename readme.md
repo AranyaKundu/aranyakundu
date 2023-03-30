@@ -6,6 +6,22 @@
 
 <p>Check out my: &nbsp;&nbsp;<a href = "https://aranyakundu.github.io/aranyakundu/" target = "_blank">My Web Portfolio</a><br></p>
 <p>Contact me at: <a href = "mailto:aranya.kundu.95@gmail.com><i class = "fas fa-email"></i> &nbsp;&nbsp;Email</a>
+  
+ <div align = "center">
+    <br />
+    <!-- badges: start -->
+
+    [![Website](https://github.com/AranyaKundu/aranyakundu/blob/main/readmeAssets/website-5793.svg)](https://CRAN.R-project.org/package=fontawesome)
+    [![R-CMD-check](https://github.com/rstudio/fontawesome/workflows/R-CMD-check/badge.svg)](https://github.com/rstudio/fontawesome/actions)
+    [![Package Site](https://github.com/rstudio/fontawesome/workflows/pkgdown/badge.svg)](https://github.com/rstudio/fontawesome/actions)
+    [![Coverage status](https://codecov.io/gh/rstudio/fontawesome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/rstudio/fontawesome?branch=main)
+
+    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+
+    <!-- badges: end -->
+    <br />
+</div>
+  
 
 - 📖 Pursuing MS in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
 - 👀 Interested in coding in Python & R.
