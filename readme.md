@@ -4,10 +4,12 @@
 </p>
 <br>
 
+<a href = "https://aranyakundu.github.io/aranyakundu/">My Web Portfolio</a><br>
+
 - 📖 Pursuing MS in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
 - 👀 Interested in coding in Python & R.
 - 🌱 I’m currently learning Machine Learning and Data Science using Python and R.
-- 👋 I’m looking to collaborate on Machine Learning projects
+- 👋 I’m looking forward to collaborating on Machine Learning projects.
 - 📫 You can reach me @ aranya.kundu.95@gmail.com 
 
 <!---
