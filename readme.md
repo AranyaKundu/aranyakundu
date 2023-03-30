@@ -11,7 +11,7 @@
     <br />
     <!-- badges: start -->
 
-    [![Website](https://github.com/AranyaKundu/aranyakundu/blob/main/readmeAssets/website-5793.svg)](https://CRAN.R-project.org/package=fontawesome)
+    [![Website](https://github.com/AranyaKundu/aranyakundu/blob/main/readmeAssets/website-5793.svg)](https://aranyakundu.github.io/aranyakundu/)
     [![R-CMD-check](https://github.com/rstudio/fontawesome/workflows/R-CMD-check/badge.svg)](https://github.com/rstudio/fontawesome/actions)
     [![Package Site](https://github.com/rstudio/fontawesome/workflows/pkgdown/badge.svg)](https://github.com/rstudio/fontawesome/actions)
     [![Coverage status](https://codecov.io/gh/rstudio/fontawesome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/rstudio/fontawesome?branch=main)
