@@ -5,7 +5,7 @@
 <br>
 <div align = "center">
 <a href="https://aranyakundu.github.io/aranyakundu/" target = "_blank">
-    <img src="https://img.shields.io/badge/Website-gkos.tech-red?style=flat-square">
+    <img src="https://img.shields.io/badge/Website-Aranya-blueviolet">
 </a>  
 <a href="https://aranyakundu.github.io/aranyakundu/assets/Aranya_Resume.pdf" target="_blank">
     <img src="https://img.shields.io/badge/PDF-CV-red?style=flat-square&logo=adobe">
