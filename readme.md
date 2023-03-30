@@ -2,21 +2,26 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Lucida+Calligraphy&duration=2000&pause=100&color=40924D&multiline=true&width=700&height=85&lines=Aranya+Kundu;Student+%7C+MS+in+Business+Analytics;Machine+Learning%2F+Text+Analysis%2F+Image+Recognition" alt="Typing SVG" /></a>
 </p>
-library(fontawesome)
- <div align = "center">
-    <br />
-    <!-- badges: start -->
 
-    [![Website](https://github.com/AranyaKundu/aranyakundu/blob/main/readmeAssets/website-5793.svg)](https://aranyakundu.github.io/aranyakundu/)
-    [![R-CMD-check](https://github.com/rstudio/fontawesome/workflows/R-CMD-check/badge.svg)](https://github.com/rstudio/fontawesome/actions)
-    [![Package Site](https://github.com/rstudio/fontawesome/workflows/pkgdown/badge.svg)](https://github.com/rstudio/fontawesome/actions)
-    [![Coverage status](https://codecov.io/gh/rstudio/fontawesome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/rstudio/fontawesome?branch=main)
-
-    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
-
-    <!-- badges: end -->
-    <br />
-</div>
+<br>
+<a href="https://aranyakundu.github.io/aranyakundu/" target = "_blank">
+    <img src="https://img.shields.io/badge/Website-gkos.tech-red?style=flat-square">
+</a>  
+<a href="https://aranyakundu.github.io/aranyakundu/assets/Aranya_Resume.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/PDF-CV-red?style=flat-square&logo=adobe">
+</a>  
+<a href="https://www.linkedin.com/in/aranya-kundu/" target="_blank">
+    <img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=linkedin">
+</a>
+<a href="mailto:aranya.kundu.95@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white">
+</a>
+<!-- <a href='https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra' target="_blank">
+    <img alt='GoogleScholar' src='https://img.shields.io/badge/Scholar-100000?style=flat&logo=GoogleScholar&logoColor=white&&color=0181FF'>
+</a>
+<a href="https://pypi.org/user/drkostas/">
+    <img src="https://img.shields.io/badge/PyPi-drkostas-blue?style=flat-square&logo=pypi&logoColor=white">
+</a> -->
   
 
 - 📖 Pursuing MS in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
