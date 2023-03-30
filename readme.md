@@ -4,7 +4,8 @@
 </p>
 <br>
 
-<a href = "https://aranyakundu.github.io/aranyakundu/">My Web Portfolio</a><br>
+<p>Check out my: &nbsp;&nbsp;<a href = "https://aranyakundu.github.io/aranyakundu/" target = "_blank">My Web Portfolio</a><br></p>
+<p>Contact me at: <a href = "mailto:aranya.kundu.95@gmail.com><i class = "fas fa-email"></i> &nbsp;&nbsp;Email</a>
 
 - 📖 Pursuing MS in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
 - 👀 Interested in coding in Python & R.
