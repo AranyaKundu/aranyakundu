@@ -1,12 +1,9 @@
-<!-- Pages: Home, FindMe, Education, Work Experience, Python Projects, R Dashboards, Contact Me Form-->
-<!-- color: #21202e -->
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
-        <meta name = "description" content = "Aranya Kundu, Aranya Kundu Portfolio, Aranya Kundu Website, Web Portfolio">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
         <link rel = "stylesheet" href = "styles.css">
         <link rel = "stylesheet" href = "individual.css">
@@ -15,7 +12,6 @@
     </head>
     <body>
         <div class = "container">
-            <!-- 3 rows: topnav, row, footer -->
             <div class = "topnav">
                 <!--Horizontal menu item -->
                 <img src="images/vscode.ico">
@@ -33,60 +29,52 @@
                 <div class="left-column">
                     <!--vertical menu item-->
                     <ul class = "vertical">
-                        <li class = "active"><a href = "index.html"><i class="fas fa-home"></i></a></li>
+                        <li><a href = "index.html"><i class="fas fa-home"></i></a></li>
                         <li><a href = "education.html"><i class="fas fa-user-graduate"></i></a></li>
                         <li><a href = "workex.html"><i class="fas fa-industry"></i></a></li>
                         <li><a href = "projects.html"><i class="fab fa-python"></i></a></li>
                         <li><a href = "dashboards.html"><i class="fab fa-r-project"></i></a></li>
                     </ul>
                     <ul class="vertical_bottom">
-                        <li><a href= "contacts.html" target = "_blank"><i class="fas fa-user-circle"></i></a></li>
+                        <li class = "active"><a href= "contacts.html" target = "_blank"><i class="fas fa-user"></i></a></li>
                     </ul>
                 </div>
                 <div class = "right-column">
                     <!-- # top navigation menu -->
                     <div class = "menu">
-                        <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;home.html &nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
+                        <a href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;home.html &nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "projects.html"><i class="fab fa-python"></i>&nbsp;&nbsp;projects.py&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "dashboards.html"><i class="fab fa-r-project"></i>&nbsp;&nbsp;dashboards.R&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                         <a href = "education.html"><i class="fas fa-user-graduate"></i>&nbsp;&nbsp;education.css&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
-                        <a href = "workex.html"><i class="fas fa-industry"></i>&nbsp;&nbsp;workex.js&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
+                        <a class = "active" href = "workex.html"><i class="fas fa-industry"></i>&nbsp;&nbsp;workex.js&nbsp;&nbsp;&nbsp;&nbsp;&#10006;</a>
                     </div>
                     <!-- # code for actual content, create new divs -->
-                    <div class="inner_row">
-                        <div class="leftcol">
-                            <h1 class="name">Aranya Kundu</h1>
-                            <div class="typing">
-                                <p>MS in Business Analytics | Machine Learning Enthusiast</p>
-                                <p>Mendoza College of Business | University of Notre Dame</p>
-                            </div><br>
-                            <a href = "assets/Aranya_Resume.pdf" download="Aranya_Resume.pdf">
-                                <button class = "learnmore">Download Resume&nbsp;&nbsp;&darr;</button>
-                            </a>
-                            <p class="tech">Technical Skills</p>
-                            <div class="techbuttons">
-                                <button>Python</button>
-                                <button>Shiny</button>
-                                <button>SQL</button>
-                                <button>R Project</button>
-                                <button>Tableau</button>
-                                <button>HTML5</button>
-                                <button>CSS3</button>
-                                <button>MS Excel</button>
-                                <button>VBA</button>
-                                <button>Dashboards</button>
-                                <button>Data Management</button>
-                                <button>Data Storytelling</button>
-                            </div>
+                    <div class="contactform">
+                        <div class="form">
+                            <p class="formhead">Get in Touch</p>
+                            <form action="D:/ND-Mendoza/vmock/AranyaWebResume/submit.html" method = "POST">
+                                <label for="fName">First Name </label>
+                                <input type="text" name="fName" id="fName" required><br>
+                                <label for="lName">Last Name </label>
+                                <input type="text" name="lName" id="lName"><br>
+                                <label for="email">Email </label>
+                                <input type="email" name="email" id="email" required><br>
+                                <label for="phone">Contact </label>
+                                <input type="tel" name="phone" id="phone"><br>
+                                <input type="submit" value="Reply back">
+                            </form>
                         </div>
-                        <div class="rightcol">
-                            <div class="circular_frame">
-                                <img src = "images/portfolio_pic.jpg">
-                            </div>
+                        <div class = "social">
+                            <a href = "https://www.linkedin.com/in/aranya-kundu"><i class = "fab fa-linkedin"></i></a>
+                            <a href = "https://github.com/AranyaKundu"><i class = "fab fa-github"></i></a>
+                            <a href = "https://www.instagram.com/aranya.kundu/"><i class="fab fa-instagram"></i></a>
+                            <a href = "mailto:akundu@nd.edu"><i class = "fas fa-envelope"></i></a>
+                            <a href = "tel:+1-574-386-5029"><i class = "fas fa-mobile"></i></a><br>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class = "footer">
                 <span>Best viewed in screens of size 1920x1080 &amp; Chrome.</span>
                 <span class="copyright">&copy; Aranya Kundu | 2023 &mdash; All rights reserved.</span>
@@ -97,5 +85,6 @@
                 <a href = "tel:+1-574-386-5029"><i class = "fas fa-mobile"></i></a>
             </div>
         </div>
+
     </body>
 </html>

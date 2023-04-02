@@ -188,7 +188,7 @@ hr{
         white-space: normal;
         animation: none;
     }
-    .workexp{
+    .workexp, .contactform{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -200,6 +200,24 @@ hr{
         row-gap: 20px;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .footer span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .footer span{
+        display: none;
+    }
+    .topnav a{
+        display: none;
+    }
+    .contactform{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 20px;
     }
 }
 .descr{
@@ -483,4 +501,92 @@ hr{
 #icon:hover{
     color: aliceblue;
     background: rgb(21, 21, 172);
+}
+/* Code for contact form page */
+.contactform{
+    display: grid;
+    grid-template-columns: minmax(400px, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    row-gap: 20px;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+}
+.social a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 10px;
+    margin: 10px;
+}
+.formhead{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: aliceblue;
+    position: relative;
+}
+.formhead::after{
+    content: "";
+    width: 10%;
+    position: absolute;
+    background: #c280ee;
+    left: 45%;
+    bottom: -5px;
+    height: 4px;
+}
+form{
+    margin: 0;
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 40px 20px;
+    border-radius: 10px;
+    min-width: 400px;
+}
+input[type="text"], input[type = "email"], input[type = "tel"] {
+    width: 80%;
+    text-align: center;
+    padding: 12px 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+input[type="submit"]{
+    background:rgb(21, 21, 172);
+    color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+input[type="submit"]:hover{
+    color: rgb(21, 21, 172);
+    background: aliceblue;
+    transition: all 1s ease;
+}
+/*Code for submit page*/
+.success{
+    min-height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    width: 80%;
+    background: rgb(34, 185, 56, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(34, 185, 56);
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
 }

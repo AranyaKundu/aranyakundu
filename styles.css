@@ -63,7 +63,7 @@ ul.vertical{
     width: 48px;
     background-color: transparent;
 }
-ul.vertical li a {
+ul.vertical li a, ul.vertical_bottom li a {
     display: block;
     color: aliceblue;
     padding: 12px 12px 16px 12px;
@@ -72,8 +72,19 @@ ul.vertical li a {
 ul.vertical li.active a{
     color: #31e79e;
 }
-ul.vertical li a:hover {
+ul.vertical li a:hover, ul.vertical_bottom li a:hover {
     color: #31e79e;
+}
+ul.vertical_bottom{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 48px;
+    background-color: transparent;
+    bottom: 3%;
+    left: 0;
+    position: absolute;
 }
 .right-column{
     border: 1px solid #121016;
