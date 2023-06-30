@@ -25,7 +25,7 @@
  </div>
   
 
-- 📖 Pursuing MS in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
+- 📖 Master of Science in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
 - 👀 Interested in coding in Python & R.
 - 🌱 I’m currently learning Machine Learning and Data Science using Python and R.
 - 👋 I’m looking forward to collaborating on Machine Learning projects.
