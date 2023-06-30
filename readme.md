@@ -26,7 +26,8 @@
   
 
 - 📖 Master of Science in Business Analytics from [University of Notre Dame](https://www.nd.edu/). 
-- 👀 Interested in coding in Python & R.
+- 👀 Interested in coding in Python, R and SQL.
+- <i class="fa-regular fa-table-pivot" style="color: #124920;"></i> Love developing dashboards using Tableau and Power BI.
 - 🌱 I’m currently learning Machine Learning and Data Science using Python and R.
 - 👋 I’m looking forward to collaborating on Machine Learning projects.
 - 📫 You can reach me @ aranya.kundu.95@gmail.com 
