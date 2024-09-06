@@ -56,24 +56,68 @@
                     <!-- # code for actual content, create new divs -->
                     <div class="workexp">
                         <div class="tab-titles">
-                            <p class = "tab-links active-link" onclick="showtab('di')">Web3Sense</p>
+                            <p class="tab-links active-link" onclick="showtab('faii')">Entergy Services LLC</p>
+                            <p class = "tab-links" onclick="showtab('di')">Web3Sense</p>
                             <p class = "tab-links" onclick="showtab('ra')">Mendoza College of Business</p>
                             <p class = "tab-links" onclick="showtab('da')">NTPC Limited</p>
                         </div>
+                        
+                        <!--details for Entergy Tab-->
+                        <div class = "tab-contents active-tab" id = "faii">
+                            <div class="kpicards card0">
+                                <i class="fas fa-info-circle" id = "icon"></i><br>
+                                <h2 class="subtitle">DETAILS</h2>
+                                <p class="kpi"><i>Title:</i><br>Financial Analyst Level II</p>
+                                <p class="kpi"><i>Start Date:</i><br>October, 2023</p>
+                                <p class="kpi"><i>End Date:</i><br>Present</p>
+                                <p class="kpi"><i>Location:</i><br> The Woodlands, Texas, USA</p>
+                            </div>
+                            <div class="kpicards card1">
+                                <i class="fas fa-chess" id = "icon"></i><br>
+                                <h2 class="subtitle">PROJECTS</h2>
+                                <p class="kpi">Incentive Metrics calculation for all employees of the company.</p>
+                                <p class="kpi">Design a data pipeline for querying and storing billing information for Commercial, Industrial and Government customers of Entergy.</p>
+                            </div>
+                            <div class="kpicards card2">
+                                <i class="fas fa-chess" id = "icon"></i><br>
+                                <h2 class="subtitle">STRATEGY</h2>
+                                <p class="kpi">To develop a model that would compute the incentive percentage for each operating unit of the company which is to be 
+                                    used to calculate the yearly incentive bonuses of all employees within that unit</p>
+                                    <p class="kpi">Design a SQL server database with normalized tables to store data which is to be updated once every billing cycle.</p>
+                            </div>
+                            <div class="kpicards card3">
+                                <i class="far fa-gem" id = "icon"></i>
+                                <h2 class="subtitle">EXPERTISE</h2>
+                                <p class="kpi">Utilized Microsoft excel and VBA knowledge to develop an incentive calculation model.</p>
+                                <p class="kpi">Utilized SQL to program a code to extract, transform and load (ETL) data in a MS SQL server database.</p>
+                                <p class="kpi">Utilizd python expertise to develop several programs to get analytical insights.</p>
+                            </div>   
+                            <div class="kpicards card4">
+                                <i class="fas fa-flag-checkered"  id = "icon"></i>
+                                <h2 class="subtitle">RESULTS</h2>
+                                <p class = "kpi">Developed an excel based model that is used by HR department to compute the incentive bonuses of all employees accross 
+                                    all functions under the company.</p>
+                                <p class="kpi">Programmed a code that could use the extracted data from billing warehouse and store them in normalized tables 
+                                    within the Customer Analytics Database.</p>
+                                    <p class="kpi">Implemented several python programs to generate analytical insights from the data stored in Customer Analytics Database 
+                                        which are utilized by different internal departments based on their necessities.</p>
+                            </div>
+                        </div>
 
                         <!-- details for Web3Sense tab -->
-                        <div class = "tab-contents active-tab" id = "di">
+                        <div class = "tab-contents" id = "di">
                             <div class="kpicards card0">
                                 <i class="fas fa-info-circle" id = "icon"></i><br>
                                 <h2 class="subtitle">DETAILS</h2>
                                 <p class="kpi"><i>Title:</i><br>Data Infrastructure Engineer Intern</p>
                                 <p class="kpi"><i>Start Date:</i><br>February, 2023</p>
-                                <p class="kpi"><i>End Date:</i><br>Present</p>
+                                <p class="kpi"><i>End Date:</i><br>May, 2023</p>
+                                <p class="kpi"><i>Location:</i><br>Notre Dame, IN, USA</p>
                             </div>
                             <div class="kpicards card1">
                                 <i class="fas fa-chess" id = "icon"></i><br>
                                 <h2 class="subtitle">STRATEGY</h2>
-                                <p class="kpi">Programmed Time Series Models using Python and PySpark for forecasting Ethereum Prices.</p>
+                                <p class="kpi">To program Time Series Models using Python and PySpark for forecasting Ethereum Prices.</p>
                             </div>
                             <div class="kpicards card2">
                                 <i class="far fa-gem" id = "icon"></i>
@@ -96,58 +140,84 @@
                                 <p class="kpi"><i>Title:</i><br>Research Assistant</p>
                                 <p class="kpi"><i>Start Date:</i><br>September, 2022</p>
                                 <p class="kpi"><i>End Date:</i><br>May, 2023</p>
+                                <p class="kpi"><i>Location:</i><br>Notre Dame, IN, USA</p>
                             </div>
                             <div class="kpicards card1">
                                 <i class="fas fa-chess" id = "icon"></i><br>
                                 <h2 class="subtitle">STRATEGY</h2>
-                                <p class="kpi">Exploring various state-of-the-art frameworks for training big text data to analyze their advantages and disadvantages.</p>
+                                <p class="kpi">To explore various state-of-the-art frameworks for training big text data to analyze their advantages and disadvantages.</p>
+                                <p class="kpi">Utilize pre-trained Transformer models to train the data and use them for analysis.</p>
                             </div>
                             <div class="kpicards card2">
                                 <i class="far fa-gem" id = "icon"></i>
                                 <h2 class="subtitle">EXPERTISE</h2>
-                                <p class="kpi">Training large linguistic models based on the pre-trained BERT framework for determination of anomaly scores.</p>
+                                <p class="kpi">Trained large linguistic models based on the pre-trained BERT framework to scruitinize existence of anomaly in the data.</p>
+                                <p class="kpi">Programmed a system to assign anomaly score to the dataset based on cosine similarity method.</p>
                             </div>
                             <div class="kpicards card3">
                                 <i class="fas fa-flag-checkered"  id = "icon"></i>
                                 <h2 class="subtitle">RESULTS</h2>
-                                <p class="kpi">Predicting contextual novelty and prescience of earnings call data of top management of various companies.</p>
+                                <p class="kpi">Predicted contextual novelty and prescience of earnings call data of top management of various companies.</p>
+                                <p class="kpi">The contextual novelty scores are utilized for further development and predictions of advanced text analytics models.</p>
                             </div>      
                         </div>
+
+                        <!--details for NTPC Limited Tab-->
                         <div class="tab-contents" id = "da">
                             <div class="kpicards card0">
                                 <i class="fas fa-info-circle" id = "icon"></i><br>
                                 <h2 class="subtitle">DETAILS</h2>
-                                <p class="kpi"><i>Title:</i><br>Data Analyst</p>
-                                <p class="kpi"><i>Start Date:</i><br>July, 2020</p>
+                                <p class="kpi"><i>Title:</i><br>Data Analyst/ Product Owner</p>
+                                <p class="kpi"><i>Start Date:</i><br>July, 2018</p>
                                 <p class="kpi"><i>End Date:</i><br>June, 2022</p>
+                                <p class="kpi"><i>Location:</i><br>New Delhi, DELHI, INDIA</p>
                             </div>
                             <div class="kpicards card1">
                                 <i class="fas fa-chess" id = "icon"></i>
                                 <h2 class="subtitle">STRATEGY</h2>
-                                <p class="kpi">Prepared and presented insights on company’s pricing policy to the Senior Leadership for 70 Giga Watts of power projects
-                                    by analyzing factors impacting monthly demand pattern and prices using previous operations and commercial data.</p>
+                                <p class="kpi">To Prepare and present insights on company’s pricing policy to the Senior Leadership for 70 Giga Watts of power projects
+                                    by analyzing factors impacting monthly demand pattern and prices using previous operations and commercial data.
+                                </p>
+                                <p class="kpi">
+                                    To automate various repetitive processes within the organization to reduce process lead times and improve accuracy 
+                                    by limiting human interventions.
+                                </p>
                             </div>
                             <div class="kpicards card2">
                                 <i class="fas fa-users" id = "icon"></i>
                                 <h2 class="subtitle">TEAMWORK</h2>
                                 <p class="kpi">Mobilized automatic reports in collaboration with company’s Power Trading and Analytics team to support in developing
-                                    power trading strategies for 7 clients based on their electricity demands and supplies.</p>
+                                    power trading strategies for 7 clients based on their electricity demands and supplies.
+                                </p>
+                                <p class="kpi">
+                                    Operationalized cross-border power trade through Indian power exchanges with our power trading team ensuring hassle-free trade 
+                                    for our cross border clients.
+                                </p>
                             </div>
                             <div class="kpicards card3">
                                 <i class="far fa-gem" id = "icon"></i>
                                 <h2 class="subtitle">EXPERTISE</h2>
                                 <p class="kpi">Programmed and implemented efficient and scalable business intelligence solutions leveraging Python skills, ETL practices
-                                    and SQL expertise, to be used by the top management and to provide consultation to clients.</p>
+                                    and SQL expertise, to be used by the top management and to provide consultation to clients.
+                                </p>
+                                <p class="kpi">
+                                    Built Cost Analysis models for financial feasibility testing of Pumped Storage Hydro Systems.
+                                </p>
                             </div>
                             <div class="kpicards card4">
                                 <i class="fas fa-chart-line" id = "icon"></i>
                                 <h2 class="subtitle">ANALYTICS</h2>
                                 <p class="kpi">Developed demand forecasting model to analyze previous energy consumption data and forecast energy demand of clients
-                                    to provide insights for power plant operations and tariff determination with 90% accuracy.</p>
+                                    to provide insights for power plant operations and tariff determination with 90% accuracy.
+                                </p>
+                                <p class="kpi">
+                                    Built Financial Analytics models for E Vehicle implementation strategies and Solar Power installations combined with 
+                                    Battery Energy Storage Systems for 24 hour power supply.
+                                </p>
                             </div>
                             <div class="kpicards card5">
                                 <i class="fas fa-rocket" id = "icon"></i>
-                                <h2 class="subtitle">OPTIMIZE</h2>
+                                <h2 class="subtitle">OPTIMIZATION</h2>
                                 <p class="kpi">Improved and managed three areas of ongoing commercial activities by restructuring them through implementation of
                                     robotic process automation thereby reducing lead times and enhancing productivity.</p>
                             </div>       
@@ -158,12 +228,12 @@
             
             <div class = "footer">
                 <span>Best viewed in screens of size 1920x1080 &amp; Chrome.</span>
-                <span class="copyright">&copy; Aranya Kundu | 2023 &mdash; All rights reserved.</span>
+                <span class="copyright">&copy; Aranya Kundu | 2024 &mdash; All rights reserved.</span>
                 <a href = "https://www.linkedin.com/in/aranya-kundu"><i class = "fab fa-linkedin"></i></a>
                 <a href = "https://github.com/AranyaKundu"><i class = "fab fa-github"></i></a>
                 <a href = "https://www.instagram.com/aranya.kundu/"><i class="fab fa-instagram"></i></a>
-                <a href = "mailto:akundu@nd.edu"><i class = "fas fa-envelope"></i></a>
-                <a href = "tel:+1-574-386-5029"><i class = "fas fa-mobile"></i></a>
+                <a href = "mailto:aranya.kundu.95@gmail.com"><i class = "fas fa-envelope"></i></a>
+                <a href = "tel:+1-346-625-4442"><i class = "fas fa-mobile"></i></a>
             </div>
         </div>
 <!-- Javascript Code here -->

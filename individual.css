@@ -14,7 +14,7 @@
     grid-auto-rows: auto;
 }
 .inner_row::before{
-    content: "NLP | NLU | BERT Researcher";
+    content: "NLP | NLU | LLM | BERT Researcher";
     position: fixed;
     top:50%;
     left: 50%;
@@ -147,14 +147,14 @@ hr{
     margin-top: 5px;
 }
 .projects_row{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-template-rows: max-content;
     padding-left: 2%;
     padding-right: 2%;
-    gap: 30px;
+    gap: 20px;
 }
 .card{
     background-color: #121016;
@@ -163,15 +163,13 @@ hr{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 95%;
     width: 100%;
 }
 .card-content img{
     width:100%;
     height: 35%;
 }
-
-
 
 /* Code for smaller screen sizes */
 
@@ -288,7 +286,16 @@ Continuation of projects.html page css
 }
 .code button.yllo:hover{
     background-color: goldenrod;
+    cursor: pointer;
 }
+.code button.purple{
+    border-color: #c280ee;
+}
+.code button.purple:hover{
+    background-color: #c280ee;
+    cursor: pointer;
+}
+
 
 
 
