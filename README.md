@@ -1,5 +1,5 @@
 ## Hi there 👋
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comic+Sans+MS&pause=1000&color=9231F7&center=true&vCenter=true&multiline=true&width=435&lines=Data+Science+%7C+Machine+Learning;Image+Recognition+%7C+Gen+AI+Enthusiast+;University+of+Notre+Dame)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Comic+Sans+MS&pause=1000&color=9231F7&center=true&vCenter=true&multiline=true&width=1200&height=75&lines=Data+Science+%7C+Machine+Learning;Image+Recognition+%7C+Gen+AI+Enthusiast+;University+of+Notre+Dame" alt="Typing SVG" /></a>
 <br><br><br><br><br>
 
 <a href="https://[aranyakundu.github.io/aranyakundu](https://aranyakundu.github.io/aranyakundu)">
@@ -20,7 +20,7 @@
 <a href="https://pypi.org/user/drkostas/">
     <img src="https://img.shields.io/badge/PyPi-drkostas-blue?style=flat-square&logo=pypi&logoColor=white">
 </a> -->
-
+<br>
 
 - 🔭 I’m currently working on Image Recognition, Text to Speech Conversion 
 - 🌱 I’m currently learning Gen AI, LLMs and MultiModal Understanding in AIs
