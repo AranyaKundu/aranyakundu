@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+        <meta name = "description" content = "chatGPT UI - Aranya Web Portfolio">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" crossorigin="anonymous"/>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "individual.css">
+        <link rel = "header icon" type = "image/png" href = "Assets/favicon-32x32-p4ktpm1x.webp">
+        <title>ChatGPT UI - Aranya Web Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <!--3 rows: answer box, question prompt, footer-->
+            <!--Sidebar first-->
+            <div class="sidebar" id="sidebar">
+                <i class = "fas fa-bars" id="toggleButton" onclick="toggleNav()"></i>
+                <br>
+                <div class="midrow">
+
+                    <div class="sidebarcontent items-center">
+                        <button class="newchat"><a href = "index.html">New Chat</a></button><br><br><br>
+                    </div>
+                        <!--1st Sidebar Content-->
+                    <div class = "sidebarcontent items-center contenthover">
+    
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md items-center">
+                            <path fill-rule="evenodd" clip-rule="evenodd" 
+                            d="M6.75 4.5C5.50736 4.5 4.5 5.50736 4.5 6.75C4.5 7.99264 5.50736 9 6.75 9C7.99264 9 9 7.99264 9 6.75C9 5.50736 7.99264 4.5 6.75 4.5ZM2.5 
+                            6.75C2.5 4.40279 4.40279 2.5 6.75 2.5C9.09721 2.5 11 4.40279 11 6.75C11 9.09721 9.09721 11 6.75 11C4.40279 11 2.5 9.09721 2.5 6.75Z" fill="currentColor">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" 
+                            d="M17.25 4.5C16.0074 4.5 15 5.50736 15 6.75C15 7.99264 16.0074 9 17.25 9C18.4926 9 19.5 7.99264 19.5 6.75C19.5 5.50736 18.4926 4.5 17.25 4.5ZM13 
+                            6.75C13 4.40279 14.9028 2.5 17.25 2.5C19.5972 2.5 21.5 4.40279 21.5 6.75C21.5 9.09721 19.5972 11 17.25 11C14.9028 11 13 9.09721 13 6.75Z" fill="currentColor">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" 
+                            d="M6.75 15C5.50736 15 4.5 16.0074 4.5 17.25C4.5 18.4926 5.50736 19.5 6.75 19.5C7.99264 19.5 9 18.4926 9 17.25C9 16.0074 7.99264 15 6.75 15ZM2.5 
+                            17.25C2.5 14.9028 4.40279 13 6.75 13C9.09721 13 11 14.9028 11 17.25C11 19.5972 9.09721 21.5 6.75 21.5C4.40279 21.5 2.5 19.5972 2.5 17.25Z" fill="currentColor">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" 
+                            d="M17.25 15C16.0074 15 15 16.0074 15 17.25C15 18.4926 16.0074 19.5 17.25 19.5C18.4926 19.5 19.5 18.4926 19.5 17.25C19.5 16.0074 18.4926 15 17.25 15ZM13 
+                            17.25C13 14.9028 14.9028 13 17.25 13C19.5972 13 21.5 14.9028 21.5 17.25C21.5 19.5972 19.5972 21.5 17.25 21.5C14.9028 21.5 13 19.5972 13 17.25Z" fill="currentColor">
+                            </path>
+                        </svg>
+                        <a href = "profile.html">&nbsp;&nbsp;&nbsp; Explore profile</a>
+                    </div>
+                    <br>
+                    <!--2nd Sidebar content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class="fa-brands fa-google-scholar items-center icon-lg"></i>
+                        <a href = "finishedprojects.html">
+                            &nbsp;&nbsp;&nbsp;Finished Projects
+                        </a>
+                    </div>
+                    <br>
+                    <!--3rd Sidebar content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <img src = "Assets/Frame 612.png" class = "items-center icon-cl">
+                        <a href = "wipp.html">
+                            &nbsp;&nbsp;&nbsp;Work in Progress Projects
+                        </a>
+                    </div>
+                    <br>
+                    <!--4th Sidebar content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class = "fab fa-r-project items-center icon-lg"></i>
+                        <a href = "dashboards.html">
+                            &nbsp;&nbsp;&nbsp;Data Science Dashboards
+                        </a>
+                    </div>
+                    <br>
+                    <!--5th Sidebar Content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class = "fas fa-briefcase items-center icon-lg"></i>
+                        <a href = "pe.html">
+                            &nbsp;&nbsp;&nbsp;Professional Experience
+                        </a>
+                    </div>
+                    <br>
+                    <!--6th Sidebar Content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class = "fas fa-user-graduate items-center icon-lg"></i>
+                        <a href = "eb.html">
+                            &nbsp;&nbsp;&nbsp;Educational Background
+                        </a>
+                    </div>
+                    <br>
+                    <!--7th Sidebar Content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class = "fab fa-python items-center icon-lg"></i>
+                        <a href = "te.html">
+                            &nbsp;&nbsp;&nbsp;Technical Expertise
+                        </a>
+                    </div>
+                    <br>
+                    <!--8th Sidebar Content-->
+                    <div class = "sidebarcontent items-center contenthover">
+                        <i class = "fas fa-briefcase items-center icon-lg"></i>
+                        <a href = "mu.html">
+                            &nbsp;&nbsp;&nbsp;Management Understanding
+                        </a>
+                    </div>
+                    <br>
+
+                </div>
+                
+                <!--Sidebar Content: Outside-->
+                <div class = "sidebarcontent items-center contacts">
+                    <i class="fas fa-user-circle items-center icon-lg"></i>
+                    <a href = "javascript:void(0)" onclick=openPopup()>
+                        &nbsp;&nbsp;&nbsp;Disclaimer
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Pop-up structure -->
+            <div id="popupPage" class="popup">
+                <div class="popup-content">
+                    <span class="close" id="closePopup" onclick=closePopup()>&times;</span>
+                    <h2>Disclaimer</h2>
+                    <ul class = "disc">
+                        <li>ChatGPT API is not connected with the text box.</li>
+                        <li>All answers are generated via the prompts used in 
+                            ChatGPT and similar Gen AI tools.
+                        </li>
+                        <li>For each question, I tried to pre-generate 3 sets of
+                            answers, each of which maybe randomly shown every time 
+                            the page is refreshed.
+                        </li>
+                        <li>The page is not intelligent enought or powered by any Gen AI 
+                            models to create answers in real time.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class ="main" id="chatContainer">
+                <div class="answer_container">
+                    <!--3 rows:toprow contains only share button-->
+                    <!--Middle row: question box, -->
+                    <div class="toprow">
+                        <div class="btn-1">
+                            <a href = "#" onclick = sharelink()><i class="fa-solid fa-arrow-up-from-bracket"></i> Share</a>
+                            <div id="shareoptions">
+                                <a href="#" target = "_blank" id="whatsapp-share"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                                <a href="#" id="email-share"><i class="fa-solid fa-envelope"></i> Email</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-container" onclick = showdropdown()>
+                            <a href = "#" class="image">
+                                <img src="Assets/portfolio_pic.jpg" alt="Image of Aranya Kundu">
+                            </a>
+                            <div class="dropdown-content" id = "dropdown-content">
+                                <a href="https://linkedin.com/in/aranya-kundu">
+                                    <i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                                <a href="https://github.com/aranyakundu"><i class="fab fa-github"></i> GitHub</a>
+                                <a href = "mailto:aranya.kundu.95@gmail.com"><i class="fas fa-at"></i> Email Me</a>
+                                <a href = "tel:+1-346-625-4442"><i class="fas fa-phone"></i> Call Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="scrollwrapper home">
+                        <div class="midcontent">
+                            <h2 class="typewriter"></h2>
+                            <div class="cards">
+                                <button class="card1">
+                                    <i class="fa-regular fa-address-card"></i>
+                                    <a href = "profile.html" class="text">Visit Profile</a>
+                                </button>
+                                <button class="card2">
+                                    <i class="fa-solid fa-suitcase goldenrod"></i>
+                                    <a href = "pe.html" class="text">Work Experience</a>
+                                </button>
+                                <button class="card3">
+                                    <i class="fa-solid fa-diagram-project color1"></i>
+                                    <a href = "finishedprojects.html" class="text">Python Projects</a>
+                                </button>
+                                <button class="card4">
+                                    <i class="fa-regular fa-chart-bar color2"></i>
+                                    <a href = "dashboards.html" class="text">R Dashboards</a>
+                                </button>
+                                <button class="card5" id="moreBtn" onclick="showMore()">
+                                    <i class=""></i>
+                                    <a href = "#" class="text">More</a>
+                                </button>
+                                <div id="extraButtons" style="display: none;">
+                                    <button class="card6">
+                                        <i class="fa-solid fa-graduation-cap color3"></i>
+                                        <a href="eb.html" class="text">Academics</a>
+                                    </button>
+                                    <button class="card7">
+                                        <i class="fa-solid fa-laptop-code color1"></i>
+                                        <a href="wipp.html" class="text">Ongoing Side gigs</a>
+                                    </button>
+                                    <button class="card8">
+                                        <i class="fa-solid fa-ranking-star color4"></i>
+                                        <a href="mu.html" class="text">Leadership Skills</a>
+                                    </button>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottomrow">
+                    <div class="message_box">
+                        <i class="fas fa-paperclip" id ="paperclip"></i>
+                        <textarea class = "textbox" id="messageInput"
+                        placeholder="Message ChatGPT"></textarea>
+                        <div id="submit" role="button">
+                            <i class="fa-solid fa-circle-arrow-up" id="send"></i>
+                        </div>
+                    </div>
+                    <p class="info">ChatGPT can make mistakes. Please check for important info.</p>
+                </div>
+                <div class="bottomdropdown">
+                    <button class="bottomright" onclick = showdropup()><i class="fa-question"></i></button>
+                    <div class="dropup" id = "dropup">
+                        <a href="https://aranya-kundu.shinyapps.io/fifa_2021/"><i class="far fa-futbol goldenrod"></i> Fifa ML Project</a>
+                        <a href="https://aranya-kundu.shinyapps.io/us_energy_forecast/"><i class="fas fa-solar-panel color1"></i> Energy Forecast Project</a>
+                        <a href="https://aranya-kundu.shinyapps.io/ev_analysis/"><i class="fas fa-charging-station color2"></i> EV Car Market Analysis</a>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </body>
+
+
+ 
+
+
+
+    <script src = "feature.js"></script>    
+</html>
