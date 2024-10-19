@@ -31,5 +31,8 @@
 - 🤔 I’m looking for help with deeper understanding of Transformer models
 - 💬 Ask me about Gen AIs in Energy Markets
 - 📫 How to reach me: aranya.kundu.95@gmail.com
-- 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: I believe AIs will divide the human race into two categories: One that will create more intelligent AIs and the other who will donate their brains to AIs.
+- ⚡ Pronouns: He/Him/His
+- 😄 Fun fact: I believe AIs will divide the human race into two categories:
+
+      1. One that will dedicate their brains to create more intelligent AIs
+      2. Others that will donate their brains to these AIs
