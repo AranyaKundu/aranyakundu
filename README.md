@@ -32,7 +32,9 @@
 - 💬 Ask me about Gen AIs in Energy Markets
 - 📫 How to reach me: aranya.kundu.95@gmail.com
 - ⚡ Pronouns: He/Him/His
-- 😄 Fun fact: I believe AIs will divide the human race into two categories:
-
-      1. One that will dedicate their brains to create more intelligent AIs
-      2. Others that will donate their brains to these AIs
+- 😄 Fun fact: I believe AIs will divide the human race into four categories:
+  
+      1. Abusers: They will use AIs whenever they need, but will keep abusing "AIs will take our jobs!"
+      2. Misusers: They will do all kind of creepy stuff utilizing AIs
+      3. Optimal Users: They will dedicate their brains to create more intelligent AIs
+      4. Overusers (My personal favorites): They will donate their brains to these AIs.
