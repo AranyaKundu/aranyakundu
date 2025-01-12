@@ -5,18 +5,20 @@ A sleek, modern data analytics dashboard on a computer screen, visualizing FIFA 
 A visual representation of a chess-like game interface built using Pygame, where queens are being strategically placed on a chessboard. The game shows
 
 To Do:
-Disclaimer page to be integrated with all pages.
+1. Create separate answers for all the questions (Major task).
+2. Create visualizations and place them properly to maintain coherence with the answers.
+
+Left: wip2, mux3, profilesummary2, 3
 
 
+Veni, Vidi, Vici (I came, I saw, I conquered) -  That's what ChatGPT did since it's inception in Nov, 2022. The innovation that probably touched maximum human lives since Google's search engine. And chatGPT went a step further to usher the AI revolution.
 
-Veni, Vidi, Vici (I came, I saw, I conquered) -  That's what ChatGPT did since it's inception in Nov, 2022. The innovation that probably touched maximum human lives since Google's search engine. And it has only gone better since then.
+One fine morning as I went there (Greatest of ideas typically comes at this particular place [IYKYK]), a great idea hit my mind. What if this genius Mr. Know-it-all that took the world by storm generates our resume? How would it look like if our Web Portfolios are designed like answers from ChatGPT?
 
-One fine morning as I went there (Greatest of ideas typically comes when we are at a particular place [IYKYK]), a great idea hit my mind. What if this genius Mr. Know-it-all that took the world by storm generates our resume? How would it look like if our Web Portfolios are designed like answers from ChatGPT?
-
-I tried building an UI that looks like (made some little changes, tried to keep the UI as close to the current ChatGPT website) answers from ChatGPT. I programmed the whole site using simple HTML5, CSS3 & JS (no frameworks).
+I tried building an UI that looks like (made some little changes, tried to keep the UI as close to the current ChatGPT website) answers from ChatGPT and similar other GenAI Models. I programmed the whole site using simple HTML5, CSS3 & JS.
 
 Check it out here:
 
 
 
-Based on your knowledge of Aranya's resume, create a brief description of all his completed projects. Do you think he can be a candidate worth considering as a data science lead in our company? Justify your answer.
+How should Aranya's Web portfolio look like?

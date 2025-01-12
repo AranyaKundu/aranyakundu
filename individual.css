@@ -61,7 +61,7 @@ from, to{
     text-justify: inter-word;
 }
 
-/*Specific to Finished Projects */
+/*Specific to All pages that has images */
 
 #answerprojects img{
     max-width: 40rem;
@@ -70,6 +70,18 @@ from, to{
 }
 
 #answerwip img {
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 1rem;
+}
+
+#answertex img {
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 1rem;
+}
+
+#answerdash img {
     max-width: 30rem;
     max-height: 30rem;
     border-radius: 1rem;
